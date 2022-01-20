@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    height: fit-content;
+    width: fit-content;
+}
+.row{
+    display: flex;
+}
+
+.grid-cell{
+    width: 2em;
+    height: 2em;
+    border: 1px solid blue;
+}
+
+#game-display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid purple;
+}
+
+.tetromino{
+    background-color: red;
+}
+
+.taken{
+    width: 2em;
+}
+
+.mini-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: darkcyan;
+    height: 8em;
+    margin-left: 5em
+}
+
+.mini-div {
+    width: 2em;
+    height: 2em;
+}
+
+.grids {
+    display: flex;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css" >
+        <title>Tetris in plain javascript</title>
+        <script src="./app.js" defer></script>
+    </head>
+    <body>
+        <h1>Dynamic Tetris</h1>
+        <h3>Create a custom grid by setting your rows and columns or press start game to play on the standard board!</h3>
+
+        <label for="num-rows" name="num-rows">Number of Rows</label>
+        <input type="number" name="num-rows" id="row-number" />
+
+        <label for="num-columns" name="num-columns">Number of Columns</label>
+        <input type="number" name="num-columns" id="column-number" />
+
+        <button id="create-grid" type="submit" >Create Grid</button>
+
+        <div id="game-display">
+            <h5>Score: <span id="score"></span></h5>
+            <button id="start-game">Start Game</button>
+            <div class="grids">
+                <div class="grid-container"></div>
+            </div>
+            
+        </div>
+        
+
+    </body>
+</html>
